@@ -26,12 +26,13 @@ img {
     float: left;
 }
 
+.card__text {
+    float: right ;
+}
+
 .clearfix::after {
     content: '';
     clear: both;
     display: table;
 }
 
-a {
-    display: inline-block;
-}
