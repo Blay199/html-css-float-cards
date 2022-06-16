@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    width: 150px;
+    height: 200px;
+}
+.card {
+    float: left;
+    
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
